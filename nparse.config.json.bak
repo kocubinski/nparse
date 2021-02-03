@@ -1,0 +1,54 @@
+{
+    "general": {
+        "eq_log_dir": "/home/mattk/wine/eq/drive_c/eq/Logs",
+        "parser_opacity": 100,
+        "qt_scale_factor": 100,
+        "update_check": true
+    },
+    "maps": {
+        "auto_follow": true,
+        "closest_z_alpha": 20,
+        "current_z_alpha": 100,
+        "geometry": [
+            100,
+            100,
+            400,
+            200
+        ],
+        "grid_line_width": 1,
+        "last_zone": "Innothule Swamp",
+        "line_width": 1,
+        "other_z_alpha": 10,
+        "scale": 0.0835844839631542,
+        "show_grid": true,
+        "show_mouse_location": true,
+        "show_poi": true,
+        "toggled": false,
+        "use_z_layers": false
+    },
+    "spells": {
+        "casting_window_buffer": 1000,
+        "custom_timers": [
+            [
+                "Journeyman Boots",
+                "Your feet feel quick.",
+                "00:18:00"
+            ]
+        ],
+        "delay_self_buffs_on_zone": true,
+        "geometry": [
+            550,
+            100,
+            200,
+            400
+        ],
+        "level": 50,
+        "toggled": false,
+        "use_casting_window": true,
+        "use_custom_triggers": true,
+        "use_secondary": [
+            "levitate"
+        ],
+        "use_secondary_all": false
+    }
+}

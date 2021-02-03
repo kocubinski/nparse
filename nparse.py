@@ -31,8 +31,9 @@ class NomnsParse(QApplication):
     """Application Control."""
 
     def __init__(self, *args):
-        super().__init__(*args)
+        self.setAttribute(Qt.AA_EnableHighDpiScaling)
 
+        super().__init__(*args)
 
         # Updates
         self._toggled = False
@@ -197,8 +198,7 @@ if __name__ == "__main__":
     APP = NomnsParse(sys.argv)
     APP.setStyleSheet(open(resource_path('data/ui/_.css')).read())
     APP.setWindowIcon(QIcon(resource_path('data/ui/icon.png')))
-    APP.setQuitOnLastWindowClosed(False)
-    APP.setAttribute(Qt.AA_EnableHighDpiScaling)
+    APP.setQuitOnLastWindowClosed(True)
     QFontDatabase.addApplicationFont(
         resource_path('data/fonts/NotoSans-Regular.ttf'))
     QFontDatabase.addApplicationFont(
